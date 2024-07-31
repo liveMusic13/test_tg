@@ -1,0 +1,40 @@
+@import '../../assets/styles/functions';
+
+.header {
+	background-color: white;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: adapt(45px, 390px);
+	padding: adapt(5px, 390px);
+
+	> button {
+		background-color: transparent;
+	}
+
+	> .button__back {
+		font-size: 1.14rem;
+		color: #007aff;
+		font-weight: 500;
+	}
+
+	> .block__title {
+		margin-left: adapt(-20px, 390px);
+		> h1 {
+			color: #222222;
+			font-weight: 700;
+			font-size: 1.14rem;
+		}
+		> p {
+			color: #d9d9d9;
+			text-align: center;
+		}
+	}
+
+	> .button__settings {
+		> img {
+			width: adapt(20px, 390px);
+			height: adapt(20px, 390px);
+		}
+	}
+}
